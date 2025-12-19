@@ -1,0 +1,1 @@
+It's my first solution of practicing Striver A2Z DSA problems. This programs displays a student grade as per the marks scored by it. After running this program, you can give marks as input and then see your grade. Basically, this program works on the principle of (if-else) statements.
