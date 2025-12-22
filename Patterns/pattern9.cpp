@@ -1,0 +1,57 @@
+#include<iostream>
+using namespace std;
+
+void print(){
+    for (int i = 1; i < 6; i++)
+    {
+        for (int j = 1; j <= 5-i; j++)
+        {
+            cout<<" ";
+        }
+        for (int j = 1; j <= (2*i)-1; j++)
+        {
+            cout<<"*";
+        }
+        for (int j = 1; j <= 5-i; j++)
+        {
+            cout<<" ";
+        }
+        cout<<endl;
+    }
+
+    for (int i = 6; i < 11; i++)
+    {   
+        for (int j = 1; j <= i-6; j++)
+        {
+            cout<<" ";
+        }
+        for (int j = 1; j <= 21-(2*i); j++)
+        {
+            cout<<"*";
+        }
+        for (int j = 1; j <= i-6; j++)
+        {
+            cout<<" ";
+        }
+       cout<<endl;    
+    }   
+}
+
+int main(){
+    print();
+    return 0;
+}
+/*
+       [space, stars, space]
+    *        [4,1,4]
+   ***       [3,3,3]
+  *****      [2,5,2]
+ *******     [1,7,1]
+*********    [0,9,0]
+*********    [0,9,0]
+ *******     [1,7,1]
+  *****      [2,5,2]
+   ***       [3,3,3]
+    *        [4,1,4]
+
+*/
